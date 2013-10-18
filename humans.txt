@@ -1,0 +1,17 @@
+/* TEAM */
+
+	UI developer: Maria Gabriela Perez
+	Twitter: @m0000g
+	From: El Junko, Venezuela
+
+/* THANKS */
+
+
+
+
+/* SITE */
+
+	Last update:
+	Language: javascript
+	Doctype:HTML5
+	IDE: SublimeText, gimp, inskcape

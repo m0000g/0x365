@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	.navbar .brand {margin-left: -10px;}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	.navbar .brand {margin-left: 5px;}.		
+		#myCarousel{display: none;}
+	 }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	.navbar .brand {margin-left: 5px;}
+	#myCarousel{display: none;}
+	 
+	 }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+		.navbar .brand {margin-left: 5px;}
+		#myCarousel{display: none;}
+	
+	 }
