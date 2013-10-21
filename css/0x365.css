@@ -44,8 +44,8 @@ h1{
 
 .navbar-inverse .navbar-brand {
   color: #fbfbfb;
-  font-family: 'Allerta', sans-serif;
-  font-size: 4rem;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 6rem;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
   padding: 30px 15px;
 }
@@ -57,16 +57,6 @@ h1{
 
 /* Carousel base class */
 
-.adornocarousel{ 
-  background: transparent url("../img/dialog2.png") bottom no-repeat;  
-  display: block;
-  height: 49px;
-  width: 100%; 
-  position: absolute;
-  top:490px;
-  right:-150px; 
- }
-
 .carousel {
   margin-bottom: 40px;  
   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
@@ -77,6 +67,8 @@ h1{
   z-index: 10;  
   background: #428bca;
   bottom:0;   
+  right: 0%;
+  left: 0%; 
 }
 
 /* Declare heights because of positioning of img element */
@@ -92,6 +84,18 @@ h1{
   height: 500px;
 }
 
+.adornocarousel{ 
+  background: transparent url("../img/dialog2.png") bottom right no-repeat;  
+  display: block;
+  height: 49px;
+  /*width: 107px; */
+  width: 100%;
+  position: absolute;
+  top:490px;    
+  left: 0px;
+ }
+
+
 
 /* SLIDES */
 .slide{
@@ -105,7 +109,7 @@ h1{
 /* Pad the edges of the mobile views a bit */
 .marketing {
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px;  
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -116,6 +120,7 @@ h1{
 }
 .marketing h2 {
   font-weight: normal;
+
 }
 .marketing .col-lg-4 p {
   margin-left: 10px;
@@ -123,16 +128,11 @@ h1{
 }
 
 .marketing ul{
-  position: relative;
-  left:50%;
-  display: block;
-  margin-left: -185px;
+  padding-left: 0;
 }
 
 .marketing li{
   list-style: none;
-  text-align: left;
-  margin-left: 4rem;
 
 }
 
@@ -154,7 +154,6 @@ padding-bottom: 100px;
   filter: FlipH;
   -ms-filter: "FlipH";  
 }
-
 
 /* Featurettes
 ------------------------- */
@@ -207,7 +206,8 @@ hr.blackstripe{
   .carousel-caption p {    
     margin-bottom: 20px;
     font-size: 21px;
-    line-height: 1.4;    
+    line-height: 1.4;   
+
   }
 
   .featurette-heading {
@@ -226,17 +226,20 @@ hr.blackstripe{
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   .carousel-caption { left:0%; right:0%;}
+  .adornocarousel{right:0px;}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .carousel-caption { left:0%; right:0%;}
-  
+  .adornocarousel{right:0px;}
+  .carousel-indicators{display: none;}
    
    }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .carousel-caption { left:0%; right:0%;}
-  
+  .adornocarousel{right:0px;}
+  .carousel-indicators{display: none;}
    }
