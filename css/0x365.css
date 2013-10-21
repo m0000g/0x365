@@ -9,6 +9,9 @@ body {
   font-family: 'Questrial', sans-serif;
 }
 
+h1{
+  font-size: 3rem;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -53,15 +56,27 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
-  margin-bottom: 40px;
 
+.adornocarousel{ 
+  background: transparent url("../img/dialog2.png") bottom no-repeat;  
+  display: block;
+  height: 49px;
+  width: 100%; 
+  position: absolute;
+  top:490px;
+  right:-150px; 
+ }
+
+.carousel {
+  margin-bottom: 40px;  
   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
   margin-top: -90px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
+  z-index: 10;  
+  background: #428bca;
+  bottom:0;   
 }
 
 /* Declare heights because of positioning of img element */
@@ -173,6 +188,7 @@ hr.blackstripe{
 @media (min-width: 768px) {
 
   /* Remove the edge padding needed for mobile */
+
   .marketing {
     padding-left: 0;
     padding-right: 0;
@@ -188,14 +204,39 @@ hr.blackstripe{
   }
 
   /* Bump up size of carousel content */
-  .carousel-caption p {
+  .carousel-caption p {    
     margin-bottom: 20px;
     font-size: 21px;
-    line-height: 1.4;
+    line-height: 1.4;    
   }
 
   .featurette-heading {
     font-size: 50px;
   }
 
+
 }
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel-caption { left:0%; right:0%;}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .carousel-caption { left:0%; right:0%;}
+  
+   
+   }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .carousel-caption { left:0%; right:0%;}
+  
+   }
