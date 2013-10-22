@@ -13,6 +13,8 @@ h1{
   font-size: 3rem;
 }
 
+.logo{padding: 0px 10px 10px 10px;}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -29,13 +31,15 @@ h1{
   margin-bottom: 0;
 }
 
-.navbar-nav > li > a {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.navbar-nav > li > a {  
+  padding: 50px 35px 50px 35px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold;    
 }
-
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  border-bottom: inset 10px #428bca;  
+  background: #3e3e3e;
+}
 
 .navbar-inverse {
   background: #373737;
@@ -91,7 +95,7 @@ h1{
   /*width: 107px; */
   width: 100%;
   position: absolute;
-  top:490px;    
+  top:530px;    
   left: 0px;
  }
 
@@ -227,6 +231,7 @@ hr.blackstripe{
 @media (min-width: 768px) and (max-width: 979px) {
   .carousel-caption { left:0%; right:0%;}
   .adornocarousel{right:0px;}
+  
 }
  
 /* Landscape phone to portrait tablet */
@@ -234,7 +239,7 @@ hr.blackstripe{
   .carousel-caption { left:0%; right:0%;}
   .adornocarousel{right:0px;}
   .carousel-indicators{display: none;}
-   
+  
    }
  
 /* Landscape phones and down */
@@ -242,4 +247,5 @@ hr.blackstripe{
   .carousel-caption { left:0%; right:0%;}
   .adornocarousel{right:0px;}
   .carousel-indicators{display: none;}
+  .navbar-inverse .navbar-brand { font-size: 3.8rem;}
    }
