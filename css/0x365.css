@@ -89,7 +89,7 @@ h1{
   height: 49px;
   width: 107px;  
   position: relative;
-  top:-40px;
+  /*top:-40px;*/
   float: right;
  }
 
@@ -236,3 +236,10 @@ hr.blackstripe{
   .carousel-indicators{display: none;}
   .navbar-inverse .navbar-brand { font-size: 3.8rem;}
    }
+
+/* IMG styles */
+
+.img_style{
+  padding: 10px;
+  background: #efefef;
+}
