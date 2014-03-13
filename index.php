@@ -31,7 +31,7 @@
   </head>
 
   <body>  
-    
+    <?php include 'dolartoday.php'; ?>
     <div class="navbar-wrapper">
         <div class="container">
         <div class="navbar navbar-inverse navbar-static-top">

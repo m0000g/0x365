@@ -1,0 +1,52 @@
+
+{
+    "_antibloqueo": {
+        "mobile": "https://d2rxczda35bp3z.cloudfront.net"
+    },
+    "_timestamp": {
+        "epoch": "1394750942",
+        "fecha": "Marzo 13, 2014 06:19 PM",
+        "fecha_corta": "Mar 13, 2014",
+        "fecha_nice": "Marzo 13, 2014",
+        "dia": "Jueves",
+        "dia_corta": "Jue"
+    },
+    "USD": {
+        "transferencia": 78.15,
+        "efectivo": 64.87,
+	"promedio": 78.15,
+        "promedio_real": 71.51,
+	"dolartoday": 78.15
+    },
+    "EUR": {
+        "transferencia": 108.37,
+        "efectivo": 89.96,
+	"promedio": 108.37,
+        "promedio_real": 99.16,
+	"dolartoday": 108.37
+    },
+    "COL": {
+        "compra": 27,
+        "venta": 29
+    },
+    "GOLD": {
+        "rate": 1371.0699
+    },
+    "USDVEF": {
+        "rate": 6.2939
+    },
+    "USDCOL": {
+        "rate": 2110.00,
+	"ratetrm": 2048.80,
+	"trmfactor": 0.03
+    },
+    "EURUSD": {
+        "rate": 1.3868
+    },
+    "BCV": {
+        "fecha": "1394598600",
+        "fecha_nice": "Marzo 12, 2014",
+        "liquidez": "1.392.172.873",
+        "reservas": "21.461.000"
+    }
+}
