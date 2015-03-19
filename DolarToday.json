@@ -4,8 +4,8 @@
         "mobile": "https://d2rxczda35bp3z.cloudfront.net"
     },
     "_timestamp": {
-        "epoch": "1394750942",
-        "fecha": "Marzo 13, 2014 06:19 PM",
+        "epoch": "1394759282",
+        "fecha": "Marzo 13, 2014 08:38 PM",
         "fecha_corta": "Mar 13, 2014",
         "fecha_nice": "Marzo 13, 2014",
         "dia": "Jueves",
@@ -20,9 +20,9 @@
     },
     "EUR": {
         "transferencia": 108.37,
-        "efectivo": 89.96,
+        "efectivo": 89.92,
 	"promedio": 108.37,
-        "promedio_real": 99.16,
+        "promedio_real": 99.15,
 	"dolartoday": 108.37
     },
     "COL": {
@@ -30,18 +30,18 @@
         "venta": 29
     },
     "GOLD": {
-        "rate": 1371.0699
+        "rate": 1375.3199
     },
     "USDVEF": {
-        "rate": 6.2939
+        "rate": 6.2877
     },
     "USDCOL": {
         "rate": 2110.00,
-	"ratetrm": 2048.80,
+	"ratetrm": 2049.50,
 	"trmfactor": 0.03
     },
     "EURUSD": {
-        "rate": 1.3868
+        "rate": 1.3862
     },
     "BCV": {
         "fecha": "1394598600",

@@ -22,11 +22,16 @@ $DolarToday = 'https:'.$DolarToday.'rate.js';
 
 $DolarToday = file_get_contents($DolarToday, NULL, NULL, 17);
 
+
 if ($DolarToday != '') {
 
 	$fp = fopen('DolarToday.json', 'w');	
-	fwrite($fp, $DolarToday);
-	fclose($fp);	
+
+	if($fp)
+	{
+	  fwrite($fp, $DolarToday);
+	}
+
 }
 
 $jsonDolarToday = json_decode($DolarToday,true);
@@ -35,8 +40,7 @@ $xve_usd = $jsonDolarToday['USD']['efectivo'];
 
 $xve_eur = $jsonDolarToday['EUR']['efectivo'];
 
-/*$preciodolar = $jsonDolarToday['USD']['dolartoday'];*/
-
+/*
 if (!isset($xve_usd) || $xve_usd == '') {
 
 	$btcven_json_2 = json_decode(file_get_contents('btcven.json'),true) or die("can't get rates");
@@ -49,6 +53,7 @@ if (!isset($xve_usd) || $xve_usd == '') {
 	// include('notify_mail.php');
 }
 
+*/
 if (isset($_GET['json']) && $_GET['json'] == 'yes') {
 
 	header('content-type: application/json; charset=utf-8');

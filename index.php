@@ -276,19 +276,20 @@
 
 
         /* Precio de Dolar Today vía php + Javascript */
+        /*
 
         $.getJSON( "DolarToday.json", function( data ) {
           var items = [];
-          $.each( data, function( key, val ) {            
-              /*items.push( "<li id='" + key+ "'>" + val + "</li>" );*/
+          $.each( data, function( key, val ) {
+              
               if(key=="USD")
               {
 
                 if (typeof val["dolartoday"]!= 'undefined') {
                   var dolarpreciodehoy= val["dolartoday"];
-                  var precio1= 12;/* Plan Básico */
-                  var precio2= 23;/* Plan Medio */
-                  var precio3= 28;/* Plan Profesional */
+                  var precio1= 12;
+                  var precio2= 23;
+                  var precio3= 28;
                   precio1 = precio1*dolarpreciodehoy;
                   precio2 = precio2*dolarpreciodehoy;
                   precio3 = precio3*dolarpreciodehoy;
@@ -301,7 +302,7 @@
 
         });
 
-
+        */
          
       });        
     </script>
