@@ -241,6 +241,8 @@ hr.blackstripe{
 .img_style{
   padding: 10px;
   background: #efefef;
+  float: left;
+  margin-right: 10px;
 }
 
 .destacaprecio{
